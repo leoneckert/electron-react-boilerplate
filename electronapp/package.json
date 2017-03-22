@@ -1,0 +1,30 @@
+{
+  "name": "Unnamed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-react": "^3.1.0",
+    "gulp-run": "^1.7.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "electron-reload": "^1.1.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7"
+  }
+}
